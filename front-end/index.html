@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  ng-app="MainModule" ng-controller="MainCtrl">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<label>
+    Enter Number:
+    <input type="text" ng-model="phoneNumber">
+</label>
+<button ng-click="sendMessage(phoneNumber)">Send Message</button>
+
+<select ng-model="myFriend" ng-options="friend.name for friend in friends"></select>
+
+
+<script type="text/javascript" src="../node_modules/angular/lib/angular.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular-resource/angular-resource.min.js"></script>
+<script type="text/javascript" src="mainCtrl.js"></script>
+<script type="text/javascript" src="messageService.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "twillioApp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "twillio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryancomte/twillioApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryancomte/twillioApp/issues"
+  },
+  "homepage": "https://github.com/ryancomte/twillioApp",
+  "dependencies": {
+    "angular": "^1.2.19",
+    "angular-resource": "^0.1.1",
+    "express": "^4.6.1",
+    "hapi": "^6.2.0",
+    "twilio": "^1.6.0"
+  }
+}
